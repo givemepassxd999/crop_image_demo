@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CropImageDemo</string>
+    <string name="crop_image_title">相片裁剪</string>
+</resources>

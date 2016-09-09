@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/PXP88_PX"
+        android:orientation="horizontal"
+        android:background="#2288ff"
+        android:id="@+id/pick_image_top_bar"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/PXP75_PX"
+            android:layout_height="@dimen/PXP75_PX"
+            android:id="@+id/pick_image_select_check"
+            android:padding="@dimen/PXP10_PX"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/selector_pick_image_check"
+            />
+        <ImageView
+            android:id="@+id/pick_image_back"
+            android:layout_width="@dimen/PXP60_PX"
+            android:layout_height="@dimen/PXP60_PX"
+            android:paddingLeft="@dimen/PXP10_PX"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/selector_back_icon" />
+        <TextView
+            android:layout_toRightOf="@id/pick_image_back"
+            android:layout_toLeftOf="@id/pick_image_select_check"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/pick_image_title"
+            android:textSize="@dimen/PXP40_PX"
+            android:textColor="#ffffff"
+            android:text="@string/crop_image_title"
+            />
+    </RelativeLayout>
+    <com.example.givemepass.cropimagedemo.CropImageView
+        android:id="@+id/crop_img"
+        android:layout_below="@id/pick_image_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>

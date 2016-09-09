@@ -1,0 +1,10 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="PXP88_PX">48dp</dimen>
+    <dimen name="PXP75_PX">41dp</dimen>
+    <dimen name="PXP10_PX">6dp</dimen>
+    <dimen name="PXP40_PX">22dp</dimen>
+    <dimen name="PXP60_PX">33dp</dimen>
+</resources>
